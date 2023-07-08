@@ -3,7 +3,7 @@ package com.slaviboy.flags
 import androidx.annotation.DrawableRes
 
 sealed class Flag(
-    val countryCallingCode: String,
+    val countryCode: String,
     val iso: String,
     @DrawableRes val imageResId: Int
 ) {
@@ -38,4 +38,28 @@ sealed class Flag(
     object Mexico : Flag("+52", "mx", R.drawable.flag_mx)
     object Belarus : Flag("+375", "by", R.drawable.flag_by)
     object Georgia : Flag("+995", "ge", R.drawable.flag_ge)
+
+    companion object {
+        fun allFlags(): List<Flag> {
+            return listOf(
+                Bulgaria, UnitedKingdom, Ireland, Island, France, Lithuania,
+                Latvia, Greece, Macedonia, Serbia, Romania, Turkey, Russia,
+                Ukraine, Albania, Spain, Portugal, Poland, Italy, Germany,
+                Sweden, Norway, China, Japan, Philippines, India, Indonesia,
+                Pakistan, Mexico, Belarus, Georgia
+            )
+        }
+
+        fun ofCountryCode(countryCode: String): Flag? {
+            return allFlags().firstOrNull {
+                it.countryCode == countryCode
+            }
+        }
+
+        fun ofIso(iso: String): Flag? {
+            return allFlags().firstOrNull {
+                it.iso == iso
+            }
+        }
+    }
 }
