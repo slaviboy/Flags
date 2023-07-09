@@ -9,7 +9,6 @@ sealed class Flag(
     @StringRes val countryResId: Int,
     @DrawableRes val imageResId: Int
 ) {
-    object None : Flag("", "", R.string.none, R.drawable.flag_none)
     object Bulgaria : Flag("+359", "bg", R.string.bulgaria, R.drawable.flag_bg)
     object UnitedKingdom : Flag("+44", "gb", R.string.united_kingdom, R.drawable.flag_gb)
     object Ireland : Flag("+353", "ie", R.string.ireland, R.drawable.flag_ie)
