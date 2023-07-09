@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bulgaria">Bulgaria</string>
+    <string name="united_kingdom">United Kingdom</string>
+    <string name="ireland">Ireland</string>
+    <string name="island">Island</string>
+    <string name="france">France</string>
+    <string name="lithuania">Lithuania</string>
+    <string name="latvia">Latvia</string>
+    <string name="greece">Greece</string>
+    <string name="macedonia">Macedonia</string>
+    <string name="serbia">Serbia</string>
+    <string name="romania">Romania</string>
+    <string name="georgia">Georgia</string>
+    <string name="belarus">Belarus</string>
+    <string name="mexico">Mexico</string>
+    <string name="pakistan">Pakistan</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="india">India</string>
+    <string name="philippines">Philippines</string>
+    <string name="japan">Japan</string>
+    <string name="china">China</string>
+    <string name="norway">Norway</string>
+    <string name="sweden">Sweden</string>
+    <string name="germany">Germany</string>
+    <string name="italy">Italy</string>
+    <string name="poland">Poland</string>
+    <string name="portugal">Portugal</string>
+    <string name="spain">Spain</string>
+    <string name="albania">Albania</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="russia">Russia</string>
+    <string name="turkey">Turkey</string>
+</resources>
