@@ -31,4 +31,11 @@
     <string name="ukraine">Ukraine</string>
     <string name="russia">Russia</string>
     <string name="turkey">Turkey</string>
+    <string name="bulgarian">Bulgarian</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="mandarin">Mandarin</string>
+    <string name="japanese">Japanese</string>
+    <string name="hindi">Hindi</string>
 </resources>
