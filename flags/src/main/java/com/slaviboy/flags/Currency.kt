@@ -18,4 +18,12 @@ enum class Currency(
     CAD("CAD", "CAD・Canadian Dollar", R.drawable.ic_flag_1x1_ca, R.drawable.ic_flag_4x3_ca),
     MXN("MXN", "MXN・Mexican Peso", R.drawable.ic_flag_1x1_mx, R.drawable.ic_flag_4x3_mx),
     JPY("¥", "(¥) JPY・Japanese Yen", R.drawable.ic_flag_1x1_jp, R.drawable.ic_flag_4x3_jp);
+
+    companion object {
+        fun ofCurrencyUnit(currencyUnit: String): Currency? {
+            return Currency.values().firstOrNull {
+                it.name == currencyUnit
+            }
+        }
+    }
 }
